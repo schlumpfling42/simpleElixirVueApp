@@ -6,7 +6,7 @@
     "configurations": [
         {
             "type": "mix_task",
-            "name": "mix (Default task)",
+            "name": "Launch server",
             "request": "launch",
             "task": "phx.server",
             "taskArgs": [
@@ -22,7 +22,7 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
+            "name": "Launch Chrome",
             "url": "http://localhost:4000",
             "webRoot": "${workspaceFolder}"
         }
